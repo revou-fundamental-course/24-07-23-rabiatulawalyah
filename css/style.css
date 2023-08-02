@@ -12,6 +12,7 @@
 
 }
 
+
 #logo {
     display: flex;
     width: 50px;
@@ -287,4 +288,32 @@ h2 {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: darkslategrey;
+}
+
+@media only screen and (max-width:600px) {
+    .inti {
+        flex-direction: column;
+    }
+
+    #table1 {
+        margin-left: 0;
+        align-items: center;
+        align-content: center;
+    }
+
+    #table2{
+        margin-left: 0;
+        align-items: center;
+        align-content: center;
+    }
+
+    .items {
+        align-items: center;
+        align-content: center;
+    }
+
+    #buttonend {
+        align-items: center;
+        align-content: center;
+    }
 }
